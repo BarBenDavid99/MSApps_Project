@@ -21,6 +21,7 @@ const CategoryModal = ({ isOpen, onClose, onSelectCategory }) => {
                     <option value="animals">Animals</option>
                     <option value="work">Work</option>
                     <option value="nature">Nature</option>
+                    <option value="ford">Cars</option>
 
                 </select>
                 <button onClick={handleSelect}>Select</button>
